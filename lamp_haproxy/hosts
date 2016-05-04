@@ -1,12 +1,12 @@
 [webservers]
-web1
-web2
+web1.home.local
+web2.home.local
 
 [dbservers]
-db1
+db1.home.local
 
 [lbservers]
-lb1
+lb1.home.local
 
 [monitoring]
-nagios
+nagios.home.local
