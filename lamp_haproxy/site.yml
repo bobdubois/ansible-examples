@@ -2,7 +2,11 @@
 # This playbook deploys the whole application stack in this site.  
 
 # Apply common configuration to all hosts
-- hosts: all
+- hosts:
+  - webservers
+  - dbservers
+  - monitoring
+  - lbservers
   remote_user: root
   roles:
   - common
